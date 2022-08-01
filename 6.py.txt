@@ -1,0 +1,12 @@
+def is_leap(ly):
+    leap = False
+    
+    if ly%400 == 0:
+            leap = True
+    else:
+        if ly%4 == 0 and ly%100 != 0:
+            leap = True
+
+    
+    return leap
+
